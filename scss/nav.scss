@@ -1,0 +1,37 @@
+nav{
+width: $nav-content-max-width;
+    height:$nav-height; 
+    background-color: aqua;
+   
+    //this is for the nav to scroll make sure to put margin top  - 92 px on the home selection
+   // position: relative;
+    // margin: 0 auto;
+
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 99;
+}
+.home-content{
+    max-width: $home-content-max-width;
+    margin: -43px auto 0 auto;
+    background-color: bisque;
+    min-height: 200px;
+.promos{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .booking-form-holder{
+        .two-col-text-input{
+            display: flex;
+            justify-content: space-between;
+            
+            input{
+                width: 344px;
+                height: 58px;
+            }
+    }
+}
